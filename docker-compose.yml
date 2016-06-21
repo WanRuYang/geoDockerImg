@@ -1,0 +1,7 @@
+app:
+  build: .
+  volumes:
+    - .:/opt/data-geo
+  ports:
+    - 8888:8888
+
