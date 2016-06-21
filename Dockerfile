@@ -78,3 +78,5 @@ WORKDIR /tmp/IPython-notebook-extensions
 RUN python setup.py install 
 
 WORKDIR /opt/data-geo
+CMD jupyter-notebook --no-browser --port 8888 --ip=0.0.0.0
+
